@@ -206,7 +206,7 @@ const Create = () => {
 
 const style = StyleSheet.create({
   main: {
-    paddingVertical: '8%',
+    paddingVertical: '0%',
     marginHorizontal: '8%',
     display: 'flex',
     justifyContent: 'space-evenly',
