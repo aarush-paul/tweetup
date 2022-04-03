@@ -1,0 +1,18 @@
+{
+  "background_color": "#003d91",
+  "description": "A simple yet powerful Video Chat app made by Aarush Paul",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "tweetup",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "tweetup",
+  "start_url": "/",
+  "theme_color": "#003d91",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ]
+}
