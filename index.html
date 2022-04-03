@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="manifest" href="manifest.json" />
-    <link rel="icon" href="/favicon.ico" sizes="16x16" />
-    <script>
-      // Initialize deferredPrompt for use later to show browser install prompt.
-      let deferredPrompt;
-
-      window.addEventListener("beforeinstallprompt", (e) => {
-        // Prevent the mini-infobar from appearing on mobile
-        e.preventDefault();
-        // Stash the event so it can be triggered later.
-        deferredPrompt = e;
-        // Update UI notify the user they can install the PWA
-        showInstallPromotion();
-        // Optionally, send analytics event that PWA install promo was shown.
-        console.log(`'beforeinstallprompt' event was fired.`);
-      });
-    </script>
-    <script type="module">
-      import "https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate";
-      const el = document.createElement("pwa-update");
-      document.body.appendChild(el);
-    </script>
+    <link rel="icon" href="/favicon.png" sizes="16x16" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="title" content="TweetUp" />
-    <meta
-      name="description"
-      content="A simple yet powerful Video Chat app made by Aarush Paul"
-    />
-    <meta
-      name="keywords"
-      content="video chat, tweetup, agora, webrtc, meeting"
-    />
+    <!-- Primary Meta Tags -->
+<title>TweetUp</title>
+<meta name="title" content="TweetUp">
+<meta name="description" content="A simple yet powerful Video Chat app made by Aarush Paul">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tweetup.vercel.app">
+<meta property="og:title" content="TweetUp">
+<meta property="og:description" content="A simple yet powerful Video Chat app made by Aarush Paul">
+<meta property="og:image" content="/favicon.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://tweetup.vercel.app">
+<meta property="twitter:title" content="TweetUp">
+<meta property="twitter:description" content="A simple yet powerful Video Chat app made by Aarush Paul">
+<meta property="twitter:image" content="/favicon.jpg">
     <meta name="robots" content="index, follow" />
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <meta name="language" content="English" />
