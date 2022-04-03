@@ -9,6 +9,7 @@
   "short_name": "tweetup",
   "start_url": "/",
   "theme_color": "#003d91",
+  "prefer_related_applications":"false",
   "icons": [
     {
       "src": "/favicon.ico",
