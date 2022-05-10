@@ -15,7 +15,7 @@ You can open TweetUp directly from [https://tweetup.vercel.app](https://tweetup.
 - Chat Features
 - Host Priviledges
 - Unlimited Participants
-- More secure that Zoom and Google Meet
+- More secure than Zoom and Google Meet
 - Screen Share
 - Video Layout
 - Cross platform support and also includes native apps for Windows and Android
