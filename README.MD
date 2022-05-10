@@ -29,5 +29,5 @@ TweetUp is and will be open source, and any developer can contribute to it. You 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Faarush-paul%2Ftweetup&project-name=tweetup&repo-name=TweetUp)
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/aarush-paul/tweetup/blob/main/LICENSE)
 
