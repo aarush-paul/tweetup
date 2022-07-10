@@ -1,0 +1,31 @@
+{
+  "background_color": "#ffffff",
+  "description": "A simple yet powerful Video Chat app made by Aarush Paul",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "TweetUp",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "TweetUp",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/favicon.jpg",
+      "type": "image/jpeg",
+      "sizes": "1736x847"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "shortcuts": []
+}
