@@ -1,7 +1,7 @@
 {
-    "name": "mirotalksfu",
-    "version": "1.0.3",
-    "description": "WebRTC SFU browser-based video calls",
+    "name": "tweetup",
+    "version": "2.6.5",
+    "description": "A simple yet powerful Video Chat app made by Aarush Paul",
     "main": "Server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -21,7 +21,7 @@
         "nodejs",
         "video"
     ],
-    "author": "Miroslav Pejic",
+    "author": "Aarush Paul",
     "license": "AGPL-3.0",
     "dependencies": {
         "@sentry/integrations": "7.38.0",
