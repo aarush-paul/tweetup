@@ -2,12 +2,12 @@ version: '3'
 
 services:
     mirotalksfu:
-        image: mirotalk/sfu:latest
+        image: tweetup/sfu:latest
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: mirotalksfu
-        hostname: mirotalksfu
+        container_name: tweetup
+        hostname: tweetup
         restart: unless-stopped
         volumes:
             - ./app/:/src/app/:ro
